@@ -1,6 +1,6 @@
 import com.davidhabot.groundleague.render.PriorityRenderable;
 import com.davidhabot.groundleague.render.Renderer;
-import com.davidhabot.groundleague.render.graphics.ScreenController;
+import com.davidhabot.groundleague.render.screen.ScreenController;
 import org.junit.Test;
 
 public class RendererTest {
@@ -66,7 +66,7 @@ public class RendererTest {
         Thread thread = new Thread(renderer, "renderer");
         thread.start();
         long time = System.currentTimeMillis();
-        while (System.currentTimeMillis() < time + 100000); //메인쓰레드가 아니므로 Thread.sleep(1000)을 대체하기 위함
+        while (System.currentTimeMillis() < time + 1000); //메인쓰레드가 아니므로 Thread.sleep(1000)을 대체하기 위함
         renderer.stopRender();
     }
 
