@@ -19,7 +19,7 @@ public class ScreenController extends JFrame {
     }
     //컨트롤러의 이름을 통해 정보를 초기화하는 생성자
     public ScreenController(String name) {
-        this(name, new Screen(0, 0)); //해당 클래스의 또다른 생성자를 호출한다.
+        this(name, new Screen(1, 1)); //해당 클래스의 또다른 생성자를 호출한다.
     }
     //컨트롤러의 모든 정보를 초기화하는 생성자이다.
     public ScreenController(@NonNull String name, Screen screen) {
