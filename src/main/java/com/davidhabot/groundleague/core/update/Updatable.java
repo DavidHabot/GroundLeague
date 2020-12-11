@@ -1,4 +1,4 @@
-package com.davidhabot.groundleague.update;
+package com.davidhabot.groundleague.core.update;
 
 @FunctionalInterface
 public interface Updatable {

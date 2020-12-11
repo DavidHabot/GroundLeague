@@ -1,4 +1,4 @@
-package com.davidhabot.groundleague.render.graphics;
+package com.davidhabot.groundleague.core.render.graphics;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -11,6 +11,8 @@ public abstract class Sprite {
     protected int width, height;
     @Getter //해당 스프라이트의 이미지를 담은 정수형 배열
     protected int[] sprite;
+
+    protected abstract void loadSprite();
 
     @Override //toString 을 재정의하여, 해당 스프라이트의 이름을 형식에 맞게 반환하게 만든다.
     public String toString() {

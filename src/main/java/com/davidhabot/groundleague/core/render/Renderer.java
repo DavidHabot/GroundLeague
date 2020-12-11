@@ -1,8 +1,10 @@
-package com.davidhabot.groundleague.render;
+package com.davidhabot.groundleague.core.render;
 
-import com.davidhabot.groundleague.render.screen.ScreenController;
+import com.davidhabot.groundleague.core.GroundLeague;
+import com.davidhabot.groundleague.core.render.screen.ScreenController;
 import lombok.Getter;
 import lombok.NonNull;
+import org.apache.log4j.Level;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,7 +42,7 @@ public class Renderer implements Runnable{
             //우선순위를 비교해 더 큰 값을 가지고있는 요소를 더 먼저 렌더링한다
             for(int i = 0; i < renderables.size(); i++) {
                 Renderable element = renderables.get(i); //renderables 의 Renderable 를 하나하나 가져온다.
-                if(element instanceof PriorityRenderable) { //만약 PriorityRenderable 로 형변환이 가능할경우,
+                if(element instanceof PriorityRenderable) { //만약 Renderables 의 요소가 PriorityRenderable 로 형변환이 가능할경우,
                     if(((PriorityRenderable)element).getPriority() < priority) { //해당 요소와 추가할 renderable 의 우선순위를 비교한다.
                         renderables.add(i, renderable); //만약 추가한 renderable 의 우선순위가 더 클경우 원래 요소가 있던 자리에 renderable 를 놓고, 나머지 요소를 한칸씩 밀어낸다.
                         break; //추가작업이 완료되었으므로, for문을 빠져나간다.
@@ -54,9 +56,10 @@ public class Renderer implements Runnable{
                         renderables.add(renderable); //리스트의 가장 마지막에 renderable 를 추가한다.
                 }
             }
-            System.out.println("중요도가 " + priority + "인 Renderable 을 추가하였습니다."); //해당 클래스가 정상적으로 추가되었을경우 성공로그를 출력한다.
+            GroundLeague.logger.log(Level.DEBUG, "중요도가 " + priority + "인 Renderable 를 렌더러에 추가하였습니다.");
         }else //만약 renderable(추가할 요소) 가 PriorityRenderable 로 형변환이 불가능할경우, renderables 리스트의 맨 끝에 renderable 을 추가한다.
             renderables.add(renderable);
+        GroundLeague.logger.log(Level.DEBUG, "증요도가 없는 Renderable 를 렌더러에 추가하였습니다.");
     }
 
     //renderables 에서 요소를 제거한다.
@@ -73,7 +76,7 @@ public class Renderer implements Runnable{
     //렌더러 쓰레드를 종료시킨다.
     public synchronized void stopRender() {
         isRendering.set(false); //렌더링이 종료되었으므로 isRendering 을 false 로 변환한다.
-        System.out.println("랜더링을 종료합니다" + "\n총 랜더링 횟수 : " + renderCount + "회"); //렌더링 결과를 출력한다.
+        GroundLeague.logger.log(Level.INFO, "THREAD_STOP - RENDERING" + "(Render Count : " + renderCount + ")");//렌더링 결과를 로깅한다.
     }
 
     //렌더러 쓰레드의 run 메소드이다. 실제 렌더링 작업을 담당한다.

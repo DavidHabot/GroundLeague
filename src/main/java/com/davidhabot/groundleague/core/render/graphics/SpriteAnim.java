@@ -1,6 +1,6 @@
-package com.davidhabot.groundleague.render.graphics;
+package com.davidhabot.groundleague.core.render.graphics;
 
-import com.davidhabot.groundleague.update.Updatable;
+import com.davidhabot.groundleague.core.update.Updatable;
 import lombok.NonNull;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.davidhabot.groundleague.level;
+package com.davidhabot.groundleague.core.level;
 
 public class RandomLevel extends Level {
     public RandomLevel(int width, int height) {

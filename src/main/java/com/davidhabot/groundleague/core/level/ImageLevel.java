@@ -1,4 +1,4 @@
-package com.davidhabot.groundleague.level;
+package com.davidhabot.groundleague.core.level;
 
 public class ImageLevel extends Level{
     public ImageLevel(int width, int height) {

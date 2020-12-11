@@ -1,4 +1,4 @@
-package com.davidhabot.groundleague.render;
+package com.davidhabot.groundleague.core.render;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

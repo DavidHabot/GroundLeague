@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "http://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/xml/doc-files/log4j.dtd">
+<log4j:configuration>
+
+    <!-- 콘솔 로그의 형식을 지정한다 -->
+    <appender name="application-console" class="org.apache.log4j.ConsoleAppender">
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{HH:mm:ss} [%5p] (%F at %L line) %c{1}.%M -> %m%n" />
+        </layout>
+    </appender>
+
+    <appender name="application-file-daily" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="Threshold" value="DEBUG"/>
+        <param name="File" value="./log./application.log"/>
+        <param name="Append" value="true"/>
+        <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d [%5p] (%F at %L line) [%c{1}] -> %m%n" />
+        </layout>
+    </appender>
+
+    <appender name="application-file-error" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="Threshold" value="ERROR"/>
+        <param name="File" value="./log/application-error.log"/>
+        <param name="Append" value="true"/>
+        <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d [%5p] [%c{1}] -> %m%n" />
+        </layout>
+    </appender>
+
+    <appender name="application-mail-error" class="org.apache.log4j.net.SMTPAppender">
+        <param name="Threshold" value="ERROR"/>
+        <param name="BufferSize" value="512"/>
+        <param name="SMTPHost" value=""/>
+        <param name="SMTPPassword" value=""/>
+        <param name="SMTPProtocol" value=""/>
+        <param name="SMTPPort" value="25"/>
+        <param name="From" value=""/>
+        <param name="To" value=""/>
+        <param name="Subject" value="[SMTPAppender] application-error"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern"
+                   value="[%d{ISO8601}]%-5p %c %m %n"/>
+        </layout>
+    </appender>
+
+    <appender name="test-file-daily" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="./log./test.log"/>
+        <param name="Append" value="true"/>
+        <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d [%5p] (%F at %L line) [%c{1}] -> %m%n" />
+        </layout>
+    </appender>
+
+    <!-- 어플리케이션 로거를 설정한다. -->
+    <logger name="com.davidhabot.groundleague.test">
+        <level value="TRACE" />
+        <appender-ref ref="test-file-daily"/>
+        <appender-ref ref="application-file-error"/>
+    </logger>
+
+    <logger name="com.davidhabot.groundleague.core">
+        <appender-ref ref="application-console" />
+        <appender-ref ref="application-file-daily"/>
+        <appender-ref ref="application-file-error"/>
+    </logger>
+    <!-- root 를 설정한다 -->
+    <root>
+        <level value="TRACE" />
+    </root>
+
+</log4j:configuration>

@@ -1,4 +1,4 @@
-package com.davidhabot.groundleague.level;
+package com.davidhabot.groundleague.core.level;
 
 public abstract class Level {
     private int[] map;

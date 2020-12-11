@@ -1,4 +1,4 @@
-package com.davidhabot.groundleague.render.screen;
+package com.davidhabot.groundleague.core.render.screen;
 
 import lombok.Getter;
 
