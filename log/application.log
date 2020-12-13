@@ -1,0 +1,95 @@
+2020-12-11 15:44:58,797 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:44:58,801 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:44:58,802 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:44:58,803 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 1인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:44:58,806 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:44:58,810 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 3인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:44:58,811 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:44:58,811 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 2인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:44:58,811 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:44:58,812 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 3인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:44:58,812 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:44:58,812 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 -1인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:44:58,813 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:44:58,814 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:44:58,827 [ INFO] (Renderer.java at 79 line) [GroundLeague] -> THREAD_STOP - RENDERING(Render Count : 1507)
+2020-12-11 15:51:46,746 [ INFO] (RendererTest.java at 15 line) [Testable] -> TEST_START - RenderCreation
+2020-12-11 15:51:46,844 [DEBUG] (RendererTest.java at 19 line) [Testable] -> #Test의 랜더러 생성 완료
+2020-12-11 15:51:46,844 [ INFO] (RendererTest.java at 21 line) [Testable] -> TEST_END - RenderCreation
+2020-12-11 15:51:46,845 [ INFO] (RendererTest.java at 27 line) [Testable] -> TEST_START - RenderCreation
+2020-12-11 15:51:46,851 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:51:46,852 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:51:46,852 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:51:46,853 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 1인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:51:46,853 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:51:46,853 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 3인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:51:46,853 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:51:46,853 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 2인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:51:46,853 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:51:46,853 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 3인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:51:46,854 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:51:46,854 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 -1인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:51:46,855 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:51:46,856 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:51:46,868 [ INFO] (Renderer.java at 79 line) [GroundLeague] -> THREAD_STOP - RENDERING(Render Count : 18)
+2020-12-11 15:51:46,868 [ INFO] (RendererTest.java at 75 line) [Testable] -> TEST_END - RenderPriority
+2020-12-11 15:53:14,104 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:53:14,105 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:53:14,105 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:53:14,106 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 1인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:53:14,106 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:53:14,106 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 3인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:53:14,106 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:53:14,107 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 2인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:53:14,107 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:53:14,107 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 3인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:53:14,107 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:53:14,107 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 -1인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:53:14,108 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:53:14,109 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:53:14,121 [ INFO] (Renderer.java at 79 line) [GroundLeague] -> THREAD_STOP - RENDERING(Render Count : 1412)
+2020-12-11 15:54:18,791 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:18,792 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:18,793 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:18,794 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 1인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:18,794 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:18,794 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 3인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:18,794 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:18,795 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 2인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:18,795 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:18,795 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 3인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:18,795 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:18,795 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 -1인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:18,798 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:18,798 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:18,812 [ INFO] (Renderer.java at 79 line) [GroundLeague] -> THREAD_STOP - RENDERING(Render Count : 542)
+2020-12-11 15:54:34,760 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:34,761 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:34,761 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:34,762 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 1인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:34,762 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:34,762 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 3인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:34,763 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:34,763 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 2인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:34,763 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:34,763 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 3인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:34,763 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:34,764 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 -1인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:34,765 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:34,765 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:34,778 [ INFO] (Renderer.java at 79 line) [GroundLeague] -> THREAD_STOP - RENDERING(Render Count : 11)
+2020-12-11 15:54:50,712 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:50,713 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:50,713 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:50,714 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 1인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:50,714 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:50,715 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 3인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:50,715 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:50,715 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 2인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:50,715 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:50,715 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 3인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:50,716 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:50,716 [DEBUG] (Renderer.java at 59 line) [GroundLeague] -> 중요도가 -1인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:50,717 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:50,718 [DEBUG] (Renderer.java at 62 line) [GroundLeague] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-11 15:54:50,732 [ INFO] (Renderer.java at 79 line) [GroundLeague] -> THREAD_STOP - RENDERING(Render Count : 10)

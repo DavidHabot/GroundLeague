@@ -1,0 +1,8 @@
+2020-12-11 15:54:50,593 [ INFO] (RendererTest.java at 15 line) [Testable] -> TEST_START - RenderCreation
+2020-12-11 15:54:50,707 [DEBUG] (RendererTest.java at 19 line) [Testable] -> #Test의 랜더러 생성 완료
+2020-12-11 15:54:50,708 [ INFO] (RendererTest.java at 21 line) [Testable] -> TEST_END - RenderCreation
+2020-12-11 15:54:50,709 [ INFO] (RendererTest.java at 27 line) [Testable] -> TEST_START - RenderCreation
+2020-12-11 15:54:50,719 [TRACE] (RendererTest.java at 41 line) [Testable] -> 렌더링 테스트 5 (우선순위 = 3)
+2020-12-11 15:54:50,719 [TRACE] (RendererTest.java at 53 line) [Testable] -> 렌더링 테스트 7 (우선순위 = 3)
+2020-12-11 15:54:50,720 [TRACE] (RendererTest.java at 47 line) [Testable] -> 렌더링 테스트 6 (우선순위 = 2)
+2020-12-11 15:54:50,720 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
