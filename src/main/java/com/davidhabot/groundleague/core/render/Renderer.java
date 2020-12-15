@@ -1,10 +1,10 @@
 package com.davidhabot.groundleague.core.render;
 
-import com.davidhabot.groundleague.core.GroundLeague;
 import com.davidhabot.groundleague.core.render.screen.ScreenController;
 import lombok.Getter;
 import lombok.NonNull;
 import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,8 +19,9 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * @since 1.0-SNAPSHOT
  */
 public class Renderer implements Runnable{
+    Logger logger = Logger.getLogger(Renderer.class);
     @NonNull @Getter
-    private AtomicBoolean isRendering; //현재 렌더링중인지 여부를 Thread-safe 한 AtomicBoolean 자료형으로 저장
+    private final AtomicBoolean isRendering; //현재 렌더링중인지 여부를 Thread-safe 한 AtomicBoolean 자료형으로 저장
     @NonNull
     private final List<Renderable> renderables; //렌더링 가능한 모든 클래스를 Renderable 인터페이스로 저장한 리스트
     @NonNull @Getter //헨더링할 스크린
@@ -29,6 +30,7 @@ public class Renderer implements Runnable{
 
     //렌더러의 기본 생성자이다. 렌더링할 스크린을 인자로 받는다.
     public Renderer(ScreenController screenController) {
+        logger.log(Level.TRACE, "렌더러 생성 - " + this.toString());
         isRendering = new AtomicBoolean(false); //초기화 시점에서 렌더링중이 아니므로 false 로 초기화한다.
         renderables = new ArrayList<>(); //추가나 제거도 되지만, 그보단 get 이 많이쓰이므로(For each) ArrayList 를 채택한다.
         screen = screenController; //생성자에서 받은 screenController 로 screen 을 초기화한다.
@@ -56,10 +58,10 @@ public class Renderer implements Runnable{
                         renderables.add(renderable); //리스트의 가장 마지막에 renderable 를 추가한다.
                 }
             }
-            GroundLeague.logger.log(Level.DEBUG, "중요도가 " + priority + "인 Renderable 를 렌더러에 추가하였습니다.");
+            logger.log(Level.DEBUG, "중요도가 " + priority + "인 Renderable 를 렌더러에 추가하였습니다.");
         }else //만약 renderable(추가할 요소) 가 PriorityRenderable 로 형변환이 불가능할경우, renderables 리스트의 맨 끝에 renderable 을 추가한다.
             renderables.add(renderable);
-        GroundLeague.logger.log(Level.DEBUG, "증요도가 없는 Renderable 를 렌더러에 추가하였습니다.");
+        logger.log(Level.DEBUG, "증요도가 없는 Renderable 를 렌더러에 추가하였습니다.");
     }
 
     //renderables 에서 요소를 제거한다.
@@ -76,12 +78,13 @@ public class Renderer implements Runnable{
     //렌더러 쓰레드를 종료시킨다.
     public synchronized void stopRender() {
         isRendering.set(false); //렌더링이 종료되었으므로 isRendering 을 false 로 변환한다.
-        GroundLeague.logger.log(Level.INFO, "THREAD_STOP - RENDERING" + "(Render Count : " + renderCount + ")");//렌더링 결과를 로깅한다.
+        logger.log(Level.INFO, "THREAD_STOP - RENDERING" + "(Render Count : " + renderCount + ")");//렌더링 쓰레드 종료 및 렌더링 결과를 로깅한다.
     }
 
     //렌더러 쓰레드의 run 메소드이다. 실제 렌더링 작업을 담당한다.
     @Override
     public void run() {
+        logger.log(Level.INFO, "THREAD_START - RENDERING");//렌더링 쓰레드 시작을 로깅한다.
         isRendering.set(true); //렌더링을 시작하므로 isRendering 을 true 로 변환시킨다.
         while (isRendering.get()) { //렌더링 중일때만 실행한다.
             renderAll(); //렌더링 작업을 실행한다

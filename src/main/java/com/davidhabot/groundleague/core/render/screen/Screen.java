@@ -1,6 +1,8 @@
 package com.davidhabot.groundleague.core.render.screen;
 
 import lombok.Getter;
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
 
 import java.awt.*;
 import java.awt.image.BufferStrategy;
@@ -9,12 +11,14 @@ import java.awt.image.DataBufferInt;
 import java.util.Arrays;
 
 public class Screen extends Canvas {
+    private final Logger logger = Logger.getLogger(this.getClass());
     private BufferedImage img;
     @Getter
     private int[] pixel;
 
     //스크린의 기본 생성자. width 와 height 를 초기화하며, initScreen 을 호출한다.
     public Screen(int width, int height) {
+        logger.log(Level.TRACE, "스크린 생성 - " + this.toString());
         initScreen(width, height); //스크린을 초기화한다.
     }
 

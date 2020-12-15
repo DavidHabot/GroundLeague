@@ -2,10 +2,13 @@ package com.davidhabot.groundleague.core.render.screen;
 
 import lombok.Getter;
 import lombok.NonNull;
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
 
 import javax.swing.*;
 
 public class ScreenController extends JFrame {
+    private final Logger logger = Logger.getLogger(this.getClass());
     //스크린 컨트롤러의 이름을 생성자로 지정하지 않았을경우 설정될 기본 이름
     private static final String DEFAULT_NAME = "@BasicScreenController";
     @Getter //해당 스크린 컨트롤러의 이름
@@ -23,6 +26,7 @@ public class ScreenController extends JFrame {
     }
     //컨트롤러의 모든 정보를 초기화하는 생성자이다.
     public ScreenController(@NonNull String name, Screen screen) {
+        logger.log(Level.TRACE, "스크린 컨트롤러 생성 - " + this.toString());
         this.name = name; //name 초기화
         this.screen = screen; //screen 초기화
         screen.clear(); //screen 의 색을 Black 로 칠한다.
