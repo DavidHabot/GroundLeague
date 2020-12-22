@@ -3,6 +3,7 @@ package com.davidhabot.groundleague.core.render.graphics;
 import com.davidhabot.groundleague.core.update.Updatable;
 import lombok.NonNull;
 
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -12,9 +13,11 @@ public class SpriteAnim extends GraphicGroup<Sprite> implements Updatable { //an
     private int animRate;;//해당 스프라이트 그룹의 애니메이션 기능을 위해 만든 애니메이션 상태변수
     private final int maxAnimRate, animTick; //animRate 의 최대값과, 한 스프라이트가 해당 애니메이션에서 몇 틱이나 띄워지는지를 정한다.
 
-    public SpriteAnim(@NonNull String name, @NonNull List<Sprite> sprite, int animTick) {
-        super(name, sprite);
-        this.animTick = animTick; //animTick
+    public SpriteAnim(@NonNull String name, int animTick, @NonNull Sprite... sprite)throws ArithmeticException {
+        super(name, Arrays.asList(sprite.clone()));
+        if(animTick < 0) {
+            throw new ArithmeticException();
+        }else this.animTick = animTick; //animTick
         this.maxAnimRate = animTick * graphics.size(); //매개변수로 받은 animTick(스프라이트 변경 주기 | 단위 tick)과 스프라이트 개수를 곱해서 실제 애니메이션 한 주기의 틱 수를 구하여 maxAnimRate 에 넣는다.
     }
 

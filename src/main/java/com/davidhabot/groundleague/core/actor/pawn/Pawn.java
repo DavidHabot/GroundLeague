@@ -17,6 +17,11 @@ public class Pawn extends Actor implements AdvancedMovable, Rotatable {
     protected double speed; //해당 Pawn 의 이동속도
     protected double xWeight, yWeight; //해당 Pawn 이 움직여야할 좌표 가중치를 저장한다. (일정한 속도로 움직이기 위함)
 
+    public Pawn(int speed) {
+        super();
+        this.speed = speed;
+    }
+
     @Override
     public void move(Direction dir) {
         move(dir.getXWeight(), dir.getYWeight());
@@ -26,6 +31,8 @@ public class Pawn extends Actor implements AdvancedMovable, Rotatable {
     public void move(int xWeight, int yWeight) {
         this.xWeight += xWeight; //x가중치 누적
         this.yWeight += yWeight; //y가중치 누적
+        logger.log(Level.DEBUG, "x가중치에 " + xWeight + "를 추가하였습니다");
+        logger.log(Level.DEBUG, "y가중치에 " + yWeight + "를 추가하였습니다");
     }
 
     @Override //인자로 받은 방향으로 Pawn 의 방향을 수정한다.
@@ -37,7 +44,6 @@ public class Pawn extends Actor implements AdvancedMovable, Rotatable {
     public void update() {
         moveLogic(); //이동로직
     }
-    
     public void moveLogic() {
         int dirX = getDir(xWeight), dirY = getDir(yWeight); //이동할 x, y 로의 방향을 getDir 메서드를 통해 초기화한다.
 
@@ -51,10 +57,10 @@ public class Pawn extends Actor implements AdvancedMovable, Rotatable {
         그러므로, a = root(1/2)
         root(1/2)
         = root(1) / root(2) = 1 / root(2) = root(2) / root(2)^2 = root(2) / 2
-        = 1.4142... / 2 = 0.7071
+        = 1.4142... / 2 = 0.7....
          */
         if(xWeight != 0 && yWeight != 0) {
-            distanceModifier = 0.7071;
+            distanceModifier = 0.7;
         }
 
         if(xWeight != 0) { //만약 x가중치가 남아있을경우
@@ -79,13 +85,13 @@ public class Pawn extends Actor implements AdvancedMovable, Rotatable {
     }
 
     public void moveX(double x) {
+        logger.log(Level.TRACE, "Pawn 의 X좌표를 " + this.x + "에서 " + x + "만큼 이동하였습니다\n 남은 가중치 : " + (xWeight-x));
         this.x += x; //해당 Pawn 의 x값을 Pawn 의 이동거리 공식 만큼 dirX 방향으로 수정한다.
         xWeight -= x; //이후, x가중치에서 해당 이동거리만큼을 뺀다.
-        logger.log(Level.TRACE, "Pawn 의 X좌표를 " + this.x + "에서 " + x + "만큼 이동하였습니다");
     }
     public void moveY(double y) {
+        logger.log(Level.TRACE, "Pawn 의 Y좌표를 " + this.y + "에서 " + y + "만큼 이동하였습니다\n 남은 가중치 : " + (yWeight-x));
         this.y += y; //해당 Pawn 의 y값을 Pawn 의 이동거리 공식만큼 dirY 방향으로 수정한다.
         yWeight -= y; //이후, y가중치에서 해당 이동거리만큼을 뺀다.
-        logger.log(Level.TRACE, "Pawn 의 Y좌표를 " + this.x + "에서 " + x + "만큼 이동하였습니다");
     }
 }

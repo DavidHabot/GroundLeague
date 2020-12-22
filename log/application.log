@@ -1,15 +1,55 @@
-2020-12-15 14:04:34,542 [DEBUG] (Renderer.java at 63 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
-2020-12-15 14:04:34,543 [DEBUG] (Renderer.java at 63 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
-2020-12-15 14:04:34,544 [DEBUG] (Renderer.java at 63 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
-2020-12-15 14:04:34,544 [DEBUG] (Renderer.java at 60 line) [Renderer] -> 중요도가 1인 Renderable 를 렌더러에 추가하였습니다.
-2020-12-15 14:04:34,544 [DEBUG] (Renderer.java at 63 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
-2020-12-15 14:04:34,544 [DEBUG] (Renderer.java at 60 line) [Renderer] -> 중요도가 3인 Renderable 를 렌더러에 추가하였습니다.
-2020-12-15 14:04:34,546 [DEBUG] (Renderer.java at 63 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
-2020-12-15 14:04:34,546 [DEBUG] (Renderer.java at 60 line) [Renderer] -> 중요도가 2인 Renderable 를 렌더러에 추가하였습니다.
-2020-12-15 14:04:34,546 [DEBUG] (Renderer.java at 63 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
-2020-12-15 14:04:34,546 [DEBUG] (Renderer.java at 60 line) [Renderer] -> 중요도가 3인 Renderable 를 렌더러에 추가하였습니다.
-2020-12-15 14:04:34,546 [DEBUG] (Renderer.java at 63 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
-2020-12-15 14:04:34,546 [DEBUG] (Renderer.java at 60 line) [Renderer] -> 중요도가 -1인 Renderable 를 렌더러에 추가하였습니다.
-2020-12-15 14:04:34,547 [DEBUG] (Renderer.java at 63 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
-2020-12-15 14:04:34,547 [DEBUG] (Renderer.java at 63 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
-2020-12-15 14:04:34,558 [ INFO] (Renderer.java at 80 line) [Renderer] -> THREAD_STOP - RENDERING(Render Count : 16)
+2020-12-17 08:43:03,461 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:43:03,633 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:43:03,634 [ INFO] (Updater.java at 58 line) [Updater] -> THREAD_START - Updating
+2020-12-17 08:43:03,634 [ INFO] (Renderer.java at 98 line) [Renderer] -> THREAD_START - RENDERING
+2020-12-17 08:43:40,046 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:43:40,199 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:43:40,200 [ INFO] (Updater.java at 58 line) [Updater] -> THREAD_START - Updating
+2020-12-17 08:43:40,200 [ INFO] (Renderer.java at 98 line) [Renderer] -> THREAD_START - RENDERING
+2020-12-17 08:44:13,401 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:44:20,111 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:44:20,280 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:44:20,280 [ INFO] (Renderer.java at 98 line) [Renderer] -> THREAD_START - RENDERING
+2020-12-17 08:44:20,280 [ INFO] (Updater.java at 58 line) [Updater] -> THREAD_START - Updating
+2020-12-17 08:54:41,866 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:54:41,867 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:54:41,867 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:54:41,868 [DEBUG] (Renderer.java at 67 line) [Renderer] -> 중요도가 0인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:54:41,868 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:54:41,868 [DEBUG] (Renderer.java at 67 line) [Renderer] -> 중요도가 0인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:54:41,869 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:54:41,869 [DEBUG] (Renderer.java at 67 line) [Renderer] -> 중요도가 0인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:54:41,869 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:54:41,869 [DEBUG] (Renderer.java at 67 line) [Renderer] -> 중요도가 0인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:54:41,869 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:54:41,870 [DEBUG] (Renderer.java at 67 line) [Renderer] -> 중요도가 0인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:54:41,871 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:54:41,871 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:54:41,872 [ INFO] (Renderer.java at 98 line) [Renderer] -> THREAD_START - RENDERING
+2020-12-17 08:54:41,884 [ INFO] (Renderer.java at 92 line) [Renderer] -> THREAD_STOP - RENDERING(Render Count : 4)
+2020-12-17 08:55:21,733 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:55:21,733 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:55:21,734 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:55:21,734 [DEBUG] (Renderer.java at 67 line) [Renderer] -> 중요도가 1인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:55:21,735 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:55:21,735 [DEBUG] (Renderer.java at 67 line) [Renderer] -> 중요도가 3인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:55:21,735 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:55:21,735 [DEBUG] (Renderer.java at 67 line) [Renderer] -> 중요도가 2인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:55:21,735 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:55:21,735 [DEBUG] (Renderer.java at 67 line) [Renderer] -> 중요도가 3인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:55:21,735 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:55:21,736 [DEBUG] (Renderer.java at 67 line) [Renderer] -> 중요도가 -1인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:55:21,737 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:55:21,737 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:55:21,738 [ INFO] (Renderer.java at 98 line) [Renderer] -> THREAD_START - RENDERING
+2020-12-17 08:55:21,750 [ INFO] (Renderer.java at 92 line) [Renderer] -> THREAD_STOP - RENDERING(Render Count : 4)
+2020-12-17 08:55:35,567 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:55:35,720 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:55:35,721 [ INFO] (Updater.java at 58 line) [Updater] -> THREAD_START - Updating
+2020-12-17 08:55:35,721 [ INFO] (Renderer.java at 98 line) [Renderer] -> THREAD_START - RENDERING
+2020-12-17 08:57:19,865 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:57:20,017 [DEBUG] (Renderer.java at 67 line) [Renderer] -> 중요도가 9999인 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:57:20,018 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:57:20,019 [DEBUG] (Renderer.java at 70 line) [Renderer] -> 증요도가 없는 Renderable 를 렌더러에 추가하였습니다.
+2020-12-17 08:57:20,019 [ INFO] (Renderer.java at 98 line) [Renderer] -> THREAD_START - RENDERING
+2020-12-17 08:57:20,019 [ INFO] (Updater.java at 58 line) [Updater] -> THREAD_START - Updating

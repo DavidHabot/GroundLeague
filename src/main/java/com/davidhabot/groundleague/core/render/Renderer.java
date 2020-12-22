@@ -7,6 +7,7 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 
@@ -19,26 +20,31 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * @since 1.0-SNAPSHOT
  */
 public class Renderer implements Runnable{
-    Logger logger = Logger.getLogger(Renderer.class);
+    private static final Logger logger = Logger.getLogger(Renderer.class);
     @NonNull @Getter
     private final AtomicBoolean isRendering; //현재 렌더링중인지 여부를 Thread-safe 한 AtomicBoolean 자료형으로 저장
-    @NonNull
-    private final List<Renderable> renderables; //렌더링 가능한 모든 클래스를 Renderable 인터페이스로 저장한 리스트
+    @NonNull//렌더링 가능한 모든 클래스를 Renderable 인터페이스로 저장한 리스트
+    private static final List<Renderable> renderables = new ArrayList<>(); //추가나 제거도 되지만, 그보단 get 이 많이쓰이므로(For each) ArrayList 를 채택한다.
     @NonNull @Getter //헨더링할 스크린
     private final ScreenController screen;
     private long renderCount; //총 랜더링 횟수를 저장하는 정수형 변수
 
     //렌더러의 기본 생성자이다. 렌더링할 스크린을 인자로 받는다.
     public Renderer(ScreenController screenController) {
-        logger.log(Level.TRACE, "렌더러 생성 - " + this.toString());
         isRendering = new AtomicBoolean(false); //초기화 시점에서 렌더링중이 아니므로 false 로 초기화한다.
-        renderables = new ArrayList<>(); //추가나 제거도 되지만, 그보단 get 이 많이쓰이므로(For each) ArrayList 를 채택한다.
         screen = screenController; //생성자에서 받은 screenController 로 screen 을 초기화한다.
         renderCount = 0; //렌더링 카운트를 0으로 초기화한다.
+        logger.log(Level.TRACE, "렌더러 생성 - " + this.toString());
+        addRenderable(new PriorityRenderable(9999) { //스크린 초기화는 가장 처음에 해야하므로, 중요도 수치를 최대로 설정한다.
+            @Override
+            public void render(ScreenController screen) {
+                Arrays.fill(screen.getScreen().getPixel(), 0x000000);//스크린을 0, 0, 0(Black)으로 초기화한다.
+            }
+        });
     }
 
     //렌더링 가능한 클래스를 renderables 리스트에 추가한다.
-    public void addRenderable(Renderable renderable) {
+    public static void addRenderable(Renderable renderable) {
         if(renderable instanceof PriorityRenderable) { //만약 renderable 이 우선순위 Renderable(PriorityRenderable) 일경우,
             int priority = ((PriorityRenderable) renderable).getPriority(); //renderable 을 PriorityRenderable 로 다운캐스팅하여 중요도를 가져온다.
             //우선순위를 비교해 더 큰 값을 가지고있는 요소를 더 먼저 렌더링한다
@@ -67,6 +73,11 @@ public class Renderer implements Runnable{
     //renderables 에서 요소를 제거한다.
     public void removeRenderable(Renderable renderable) {
         renderables.remove(renderable);
+    }
+
+    //renderables 에서 idx 를 통해 요소를 제거한다.
+    public void removeRenderable(int idx) {
+        renderables.remove(idx);
     }
 
     //renderables 에 있는 Renderable 클래스를 모두 screen 에 렌더링한다.

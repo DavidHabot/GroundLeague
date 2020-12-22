@@ -1,164 +1,74 @@
-2020-12-15 14:04:34,405 [ INFO] (RendererTest.java at 15 line) [Testable] -> TEST_START - RenderCreation
-2020-12-15 14:04:34,540 [DEBUG] (RendererTest.java at 19 line) [Testable] -> #Test의 랜더러 생성 완료
-2020-12-15 14:04:34,540 [ INFO] (RendererTest.java at 21 line) [Testable] -> TEST_END - RenderCreation
-2020-12-15 14:04:34,541 [ INFO] (RendererTest.java at 27 line) [Testable] -> TEST_START - RenderCreation
-2020-12-15 14:04:34,547 [TRACE] (RendererTest.java at 41 line) [Testable] -> 렌더링 테스트 5 (우선순위 = 3)
-2020-12-15 14:04:34,547 [TRACE] (RendererTest.java at 53 line) [Testable] -> 렌더링 테스트 7 (우선순위 = 3)
-2020-12-15 14:04:34,548 [TRACE] (RendererTest.java at 47 line) [Testable] -> 렌더링 테스트 6 (우선순위 = 2)
-2020-12-15 14:04:34,548 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
-2020-12-15 14:04:34,548 [TRACE] (RendererTest.java at 29 line) [Testable] -> 렌더링 테스트 1
-2020-12-15 14:04:34,548 [TRACE] (RendererTest.java at 30 line) [Testable] -> 렌더링 테스트 2
-2020-12-15 14:04:34,548 [TRACE] (RendererTest.java at 31 line) [Testable] -> 렌더링 테스트 3
-2020-12-15 14:04:34,548 [TRACE] (RendererTest.java at 59 line) [Testable] -> 렌더링 테스트 8 (우선순위 = -1)
-2020-12-15 14:04:34,548 [TRACE] (RendererTest.java at 67 line) [Testable] -> 렌더링 테스트 9
-2020-12-15 14:04:34,548 [TRACE] (RendererTest.java at 41 line) [Testable] -> 렌더링 테스트 5 (우선순위 = 3)
-2020-12-15 14:04:34,548 [TRACE] (RendererTest.java at 53 line) [Testable] -> 렌더링 테스트 7 (우선순위 = 3)
-2020-12-15 14:04:34,548 [TRACE] (RendererTest.java at 47 line) [Testable] -> 렌더링 테스트 6 (우선순위 = 2)
-2020-12-15 14:04:34,548 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
-2020-12-15 14:04:34,548 [TRACE] (RendererTest.java at 29 line) [Testable] -> 렌더링 테스트 1
-2020-12-15 14:04:34,549 [TRACE] (RendererTest.java at 30 line) [Testable] -> 렌더링 테스트 2
-2020-12-15 14:04:34,549 [TRACE] (RendererTest.java at 31 line) [Testable] -> 렌더링 테스트 3
-2020-12-15 14:04:34,549 [TRACE] (RendererTest.java at 59 line) [Testable] -> 렌더링 테스트 8 (우선순위 = -1)
-2020-12-15 14:04:34,549 [TRACE] (RendererTest.java at 67 line) [Testable] -> 렌더링 테스트 9
-2020-12-15 14:04:34,549 [TRACE] (RendererTest.java at 41 line) [Testable] -> 렌더링 테스트 5 (우선순위 = 3)
-2020-12-15 14:04:34,549 [TRACE] (RendererTest.java at 53 line) [Testable] -> 렌더링 테스트 7 (우선순위 = 3)
-2020-12-15 14:04:34,549 [TRACE] (RendererTest.java at 47 line) [Testable] -> 렌더링 테스트 6 (우선순위 = 2)
-2020-12-15 14:04:34,549 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
-2020-12-15 14:04:34,549 [TRACE] (RendererTest.java at 29 line) [Testable] -> 렌더링 테스트 1
-2020-12-15 14:04:34,549 [TRACE] (RendererTest.java at 30 line) [Testable] -> 렌더링 테스트 2
-2020-12-15 14:04:34,549 [TRACE] (RendererTest.java at 31 line) [Testable] -> 렌더링 테스트 3
-2020-12-15 14:04:34,549 [TRACE] (RendererTest.java at 59 line) [Testable] -> 렌더링 테스트 8 (우선순위 = -1)
-2020-12-15 14:04:34,549 [TRACE] (RendererTest.java at 67 line) [Testable] -> 렌더링 테스트 9
-2020-12-15 14:04:34,549 [TRACE] (RendererTest.java at 41 line) [Testable] -> 렌더링 테스트 5 (우선순위 = 3)
-2020-12-15 14:04:34,550 [TRACE] (RendererTest.java at 53 line) [Testable] -> 렌더링 테스트 7 (우선순위 = 3)
-2020-12-15 14:04:34,550 [TRACE] (RendererTest.java at 47 line) [Testable] -> 렌더링 테스트 6 (우선순위 = 2)
-2020-12-15 14:04:34,550 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
-2020-12-15 14:04:34,550 [TRACE] (RendererTest.java at 29 line) [Testable] -> 렌더링 테스트 1
-2020-12-15 14:04:34,550 [TRACE] (RendererTest.java at 30 line) [Testable] -> 렌더링 테스트 2
-2020-12-15 14:04:34,550 [TRACE] (RendererTest.java at 31 line) [Testable] -> 렌더링 테스트 3
-2020-12-15 14:04:34,550 [TRACE] (RendererTest.java at 59 line) [Testable] -> 렌더링 테스트 8 (우선순위 = -1)
-2020-12-15 14:04:34,550 [TRACE] (RendererTest.java at 67 line) [Testable] -> 렌더링 테스트 9
-2020-12-15 14:04:34,550 [TRACE] (RendererTest.java at 41 line) [Testable] -> 렌더링 테스트 5 (우선순위 = 3)
-2020-12-15 14:04:34,550 [TRACE] (RendererTest.java at 53 line) [Testable] -> 렌더링 테스트 7 (우선순위 = 3)
-2020-12-15 14:04:34,550 [TRACE] (RendererTest.java at 47 line) [Testable] -> 렌더링 테스트 6 (우선순위 = 2)
-2020-12-15 14:04:34,550 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
-2020-12-15 14:04:34,550 [TRACE] (RendererTest.java at 29 line) [Testable] -> 렌더링 테스트 1
-2020-12-15 14:04:34,550 [TRACE] (RendererTest.java at 30 line) [Testable] -> 렌더링 테스트 2
-2020-12-15 14:04:34,551 [TRACE] (RendererTest.java at 31 line) [Testable] -> 렌더링 테스트 3
-2020-12-15 14:04:34,551 [TRACE] (RendererTest.java at 59 line) [Testable] -> 렌더링 테스트 8 (우선순위 = -1)
-2020-12-15 14:04:34,551 [TRACE] (RendererTest.java at 67 line) [Testable] -> 렌더링 테스트 9
-2020-12-15 14:04:34,551 [TRACE] (RendererTest.java at 41 line) [Testable] -> 렌더링 테스트 5 (우선순위 = 3)
-2020-12-15 14:04:34,551 [TRACE] (RendererTest.java at 53 line) [Testable] -> 렌더링 테스트 7 (우선순위 = 3)
-2020-12-15 14:04:34,551 [TRACE] (RendererTest.java at 47 line) [Testable] -> 렌더링 테스트 6 (우선순위 = 2)
-2020-12-15 14:04:34,551 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
-2020-12-15 14:04:34,551 [TRACE] (RendererTest.java at 29 line) [Testable] -> 렌더링 테스트 1
-2020-12-15 14:04:34,551 [TRACE] (RendererTest.java at 30 line) [Testable] -> 렌더링 테스트 2
-2020-12-15 14:04:34,551 [TRACE] (RendererTest.java at 31 line) [Testable] -> 렌더링 테스트 3
-2020-12-15 14:04:34,551 [TRACE] (RendererTest.java at 59 line) [Testable] -> 렌더링 테스트 8 (우선순위 = -1)
-2020-12-15 14:04:34,551 [TRACE] (RendererTest.java at 67 line) [Testable] -> 렌더링 테스트 9
-2020-12-15 14:04:34,551 [TRACE] (RendererTest.java at 41 line) [Testable] -> 렌더링 테스트 5 (우선순위 = 3)
-2020-12-15 14:04:34,551 [TRACE] (RendererTest.java at 53 line) [Testable] -> 렌더링 테스트 7 (우선순위 = 3)
-2020-12-15 14:04:34,552 [TRACE] (RendererTest.java at 47 line) [Testable] -> 렌더링 테스트 6 (우선순위 = 2)
-2020-12-15 14:04:34,552 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
-2020-12-15 14:04:34,552 [TRACE] (RendererTest.java at 29 line) [Testable] -> 렌더링 테스트 1
-2020-12-15 14:04:34,552 [TRACE] (RendererTest.java at 30 line) [Testable] -> 렌더링 테스트 2
-2020-12-15 14:04:34,552 [TRACE] (RendererTest.java at 31 line) [Testable] -> 렌더링 테스트 3
-2020-12-15 14:04:34,552 [TRACE] (RendererTest.java at 59 line) [Testable] -> 렌더링 테스트 8 (우선순위 = -1)
-2020-12-15 14:04:34,552 [TRACE] (RendererTest.java at 67 line) [Testable] -> 렌더링 테스트 9
-2020-12-15 14:04:34,552 [TRACE] (RendererTest.java at 41 line) [Testable] -> 렌더링 테스트 5 (우선순위 = 3)
-2020-12-15 14:04:34,552 [TRACE] (RendererTest.java at 53 line) [Testable] -> 렌더링 테스트 7 (우선순위 = 3)
-2020-12-15 14:04:34,552 [TRACE] (RendererTest.java at 47 line) [Testable] -> 렌더링 테스트 6 (우선순위 = 2)
-2020-12-15 14:04:34,552 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
-2020-12-15 14:04:34,552 [TRACE] (RendererTest.java at 29 line) [Testable] -> 렌더링 테스트 1
-2020-12-15 14:04:34,552 [TRACE] (RendererTest.java at 30 line) [Testable] -> 렌더링 테스트 2
-2020-12-15 14:04:34,552 [TRACE] (RendererTest.java at 31 line) [Testable] -> 렌더링 테스트 3
-2020-12-15 14:04:34,552 [TRACE] (RendererTest.java at 59 line) [Testable] -> 렌더링 테스트 8 (우선순위 = -1)
-2020-12-15 14:04:34,552 [TRACE] (RendererTest.java at 67 line) [Testable] -> 렌더링 테스트 9
-2020-12-15 14:04:34,552 [TRACE] (RendererTest.java at 41 line) [Testable] -> 렌더링 테스트 5 (우선순위 = 3)
-2020-12-15 14:04:34,553 [TRACE] (RendererTest.java at 53 line) [Testable] -> 렌더링 테스트 7 (우선순위 = 3)
-2020-12-15 14:04:34,553 [TRACE] (RendererTest.java at 47 line) [Testable] -> 렌더링 테스트 6 (우선순위 = 2)
-2020-12-15 14:04:34,553 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
-2020-12-15 14:04:34,553 [TRACE] (RendererTest.java at 29 line) [Testable] -> 렌더링 테스트 1
-2020-12-15 14:04:34,553 [TRACE] (RendererTest.java at 30 line) [Testable] -> 렌더링 테스트 2
-2020-12-15 14:04:34,553 [TRACE] (RendererTest.java at 31 line) [Testable] -> 렌더링 테스트 3
-2020-12-15 14:04:34,553 [TRACE] (RendererTest.java at 59 line) [Testable] -> 렌더링 테스트 8 (우선순위 = -1)
-2020-12-15 14:04:34,553 [TRACE] (RendererTest.java at 67 line) [Testable] -> 렌더링 테스트 9
-2020-12-15 14:04:34,553 [TRACE] (RendererTest.java at 41 line) [Testable] -> 렌더링 테스트 5 (우선순위 = 3)
-2020-12-15 14:04:34,553 [TRACE] (RendererTest.java at 53 line) [Testable] -> 렌더링 테스트 7 (우선순위 = 3)
-2020-12-15 14:04:34,553 [TRACE] (RendererTest.java at 47 line) [Testable] -> 렌더링 테스트 6 (우선순위 = 2)
-2020-12-15 14:04:34,553 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
-2020-12-15 14:04:34,553 [TRACE] (RendererTest.java at 29 line) [Testable] -> 렌더링 테스트 1
-2020-12-15 14:04:34,553 [TRACE] (RendererTest.java at 30 line) [Testable] -> 렌더링 테스트 2
-2020-12-15 14:04:34,553 [TRACE] (RendererTest.java at 31 line) [Testable] -> 렌더링 테스트 3
-2020-12-15 14:04:34,553 [TRACE] (RendererTest.java at 59 line) [Testable] -> 렌더링 테스트 8 (우선순위 = -1)
-2020-12-15 14:04:34,553 [TRACE] (RendererTest.java at 67 line) [Testable] -> 렌더링 테스트 9
-2020-12-15 14:04:34,553 [TRACE] (RendererTest.java at 41 line) [Testable] -> 렌더링 테스트 5 (우선순위 = 3)
-2020-12-15 14:04:34,553 [TRACE] (RendererTest.java at 53 line) [Testable] -> 렌더링 테스트 7 (우선순위 = 3)
-2020-12-15 14:04:34,554 [TRACE] (RendererTest.java at 47 line) [Testable] -> 렌더링 테스트 6 (우선순위 = 2)
-2020-12-15 14:04:34,554 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
-2020-12-15 14:04:34,554 [TRACE] (RendererTest.java at 29 line) [Testable] -> 렌더링 테스트 1
-2020-12-15 14:04:34,554 [TRACE] (RendererTest.java at 30 line) [Testable] -> 렌더링 테스트 2
-2020-12-15 14:04:34,554 [TRACE] (RendererTest.java at 31 line) [Testable] -> 렌더링 테스트 3
-2020-12-15 14:04:34,554 [TRACE] (RendererTest.java at 59 line) [Testable] -> 렌더링 테스트 8 (우선순위 = -1)
-2020-12-15 14:04:34,554 [TRACE] (RendererTest.java at 67 line) [Testable] -> 렌더링 테스트 9
-2020-12-15 14:04:34,554 [TRACE] (RendererTest.java at 41 line) [Testable] -> 렌더링 테스트 5 (우선순위 = 3)
-2020-12-15 14:04:34,554 [TRACE] (RendererTest.java at 53 line) [Testable] -> 렌더링 테스트 7 (우선순위 = 3)
-2020-12-15 14:04:34,554 [TRACE] (RendererTest.java at 47 line) [Testable] -> 렌더링 테스트 6 (우선순위 = 2)
-2020-12-15 14:04:34,554 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
-2020-12-15 14:04:34,554 [TRACE] (RendererTest.java at 29 line) [Testable] -> 렌더링 테스트 1
-2020-12-15 14:04:34,554 [TRACE] (RendererTest.java at 30 line) [Testable] -> 렌더링 테스트 2
-2020-12-15 14:04:34,554 [TRACE] (RendererTest.java at 31 line) [Testable] -> 렌더링 테스트 3
-2020-12-15 14:04:34,554 [TRACE] (RendererTest.java at 59 line) [Testable] -> 렌더링 테스트 8 (우선순위 = -1)
-2020-12-15 14:04:34,554 [TRACE] (RendererTest.java at 67 line) [Testable] -> 렌더링 테스트 9
-2020-12-15 14:04:34,554 [TRACE] (RendererTest.java at 41 line) [Testable] -> 렌더링 테스트 5 (우선순위 = 3)
-2020-12-15 14:04:34,554 [TRACE] (RendererTest.java at 53 line) [Testable] -> 렌더링 테스트 7 (우선순위 = 3)
-2020-12-15 14:04:34,555 [TRACE] (RendererTest.java at 47 line) [Testable] -> 렌더링 테스트 6 (우선순위 = 2)
-2020-12-15 14:04:34,555 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
-2020-12-15 14:04:34,555 [TRACE] (RendererTest.java at 29 line) [Testable] -> 렌더링 테스트 1
-2020-12-15 14:04:34,555 [TRACE] (RendererTest.java at 30 line) [Testable] -> 렌더링 테스트 2
-2020-12-15 14:04:34,555 [TRACE] (RendererTest.java at 31 line) [Testable] -> 렌더링 테스트 3
-2020-12-15 14:04:34,555 [TRACE] (RendererTest.java at 59 line) [Testable] -> 렌더링 테스트 8 (우선순위 = -1)
-2020-12-15 14:04:34,555 [TRACE] (RendererTest.java at 67 line) [Testable] -> 렌더링 테스트 9
-2020-12-15 14:04:34,555 [TRACE] (RendererTest.java at 41 line) [Testable] -> 렌더링 테스트 5 (우선순위 = 3)
-2020-12-15 14:04:34,555 [TRACE] (RendererTest.java at 53 line) [Testable] -> 렌더링 테스트 7 (우선순위 = 3)
-2020-12-15 14:04:34,555 [TRACE] (RendererTest.java at 47 line) [Testable] -> 렌더링 테스트 6 (우선순위 = 2)
-2020-12-15 14:04:34,555 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
-2020-12-15 14:04:34,555 [TRACE] (RendererTest.java at 29 line) [Testable] -> 렌더링 테스트 1
-2020-12-15 14:04:34,555 [TRACE] (RendererTest.java at 30 line) [Testable] -> 렌더링 테스트 2
-2020-12-15 14:04:34,555 [TRACE] (RendererTest.java at 31 line) [Testable] -> 렌더링 테스트 3
-2020-12-15 14:04:34,555 [TRACE] (RendererTest.java at 59 line) [Testable] -> 렌더링 테스트 8 (우선순위 = -1)
-2020-12-15 14:04:34,555 [TRACE] (RendererTest.java at 67 line) [Testable] -> 렌더링 테스트 9
-2020-12-15 14:04:34,555 [TRACE] (RendererTest.java at 41 line) [Testable] -> 렌더링 테스트 5 (우선순위 = 3)
-2020-12-15 14:04:34,555 [TRACE] (RendererTest.java at 53 line) [Testable] -> 렌더링 테스트 7 (우선순위 = 3)
-2020-12-15 14:04:34,555 [TRACE] (RendererTest.java at 47 line) [Testable] -> 렌더링 테스트 6 (우선순위 = 2)
-2020-12-15 14:04:34,556 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
-2020-12-15 14:04:34,556 [TRACE] (RendererTest.java at 29 line) [Testable] -> 렌더링 테스트 1
-2020-12-15 14:04:34,556 [TRACE] (RendererTest.java at 30 line) [Testable] -> 렌더링 테스트 2
-2020-12-15 14:04:34,556 [TRACE] (RendererTest.java at 31 line) [Testable] -> 렌더링 테스트 3
-2020-12-15 14:04:34,556 [TRACE] (RendererTest.java at 59 line) [Testable] -> 렌더링 테스트 8 (우선순위 = -1)
-2020-12-15 14:04:34,556 [TRACE] (RendererTest.java at 67 line) [Testable] -> 렌더링 테스트 9
-2020-12-15 14:04:34,556 [TRACE] (RendererTest.java at 41 line) [Testable] -> 렌더링 테스트 5 (우선순위 = 3)
-2020-12-15 14:04:34,556 [TRACE] (RendererTest.java at 53 line) [Testable] -> 렌더링 테스트 7 (우선순위 = 3)
-2020-12-15 14:04:34,556 [TRACE] (RendererTest.java at 47 line) [Testable] -> 렌더링 테스트 6 (우선순위 = 2)
-2020-12-15 14:04:34,556 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
-2020-12-15 14:04:34,556 [TRACE] (RendererTest.java at 29 line) [Testable] -> 렌더링 테스트 1
-2020-12-15 14:04:34,556 [TRACE] (RendererTest.java at 30 line) [Testable] -> 렌더링 테스트 2
-2020-12-15 14:04:34,556 [TRACE] (RendererTest.java at 31 line) [Testable] -> 렌더링 테스트 3
-2020-12-15 14:04:34,556 [TRACE] (RendererTest.java at 59 line) [Testable] -> 렌더링 테스트 8 (우선순위 = -1)
-2020-12-15 14:04:34,556 [TRACE] (RendererTest.java at 67 line) [Testable] -> 렌더링 테스트 9
-2020-12-15 14:04:34,556 [TRACE] (RendererTest.java at 41 line) [Testable] -> 렌더링 테스트 5 (우선순위 = 3)
-2020-12-15 14:04:34,556 [TRACE] (RendererTest.java at 53 line) [Testable] -> 렌더링 테스트 7 (우선순위 = 3)
-2020-12-15 14:04:34,556 [TRACE] (RendererTest.java at 47 line) [Testable] -> 렌더링 테스트 6 (우선순위 = 2)
-2020-12-15 14:04:34,556 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
-2020-12-15 14:04:34,557 [TRACE] (RendererTest.java at 29 line) [Testable] -> 렌더링 테스트 1
-2020-12-15 14:04:34,557 [TRACE] (RendererTest.java at 30 line) [Testable] -> 렌더링 테스트 2
-2020-12-15 14:04:34,557 [TRACE] (RendererTest.java at 31 line) [Testable] -> 렌더링 테스트 3
-2020-12-15 14:04:34,557 [TRACE] (RendererTest.java at 59 line) [Testable] -> 렌더링 테스트 8 (우선순위 = -1)
-2020-12-15 14:04:34,557 [TRACE] (RendererTest.java at 67 line) [Testable] -> 렌더링 테스트 9
-2020-12-15 14:04:34,559 [ INFO] (RendererTest.java at 75 line) [Testable] -> TEST_END - RenderPriority
-2020-12-15 23:47:57,582 [ INFO] (MoveTest.java at 12 line) [Testable] -> TEST_START - testMovement
-2020-12-15 23:47:57,584 [DEBUG] (MoveTest.java at 13 line) [Testable] -> #Case 001 - move(Direction.UP)
-2020-12-15 23:47:57,585 [DEBUG] (MoveTest.java at 15 line) [Testable] -> #Case 002 - move(Direction.DOWN)
-2020-12-15 23:47:57,585 [DEBUG] (MoveTest.java at 17 line) [Testable] -> #Case 003 - move(Direction.LEFT)
-2020-12-15 23:47:57,585 [DEBUG] (MoveTest.java at 19 line) [Testable] -> #Case 004 - move(Direction.RIGHT)
-2020-12-15 23:47:57,585 [DEBUG] (MoveTest.java at 21 line) [Testable] -> #Case 005 - move(10, -10)
+2020-12-17 08:54:41,730 [ INFO] (RendererTest.java at 27 line) [Testable] -> TEST_START - RenderCreation
+2020-12-17 08:54:41,873 [TRACE] (RendererTest.java at 29 line) [Testable] -> 렌더링 테스트 1
+2020-12-17 08:54:41,874 [TRACE] (RendererTest.java at 30 line) [Testable] -> 렌더링 테스트 2
+2020-12-17 08:54:41,874 [TRACE] (RendererTest.java at 31 line) [Testable] -> 렌더링 테스트 3
+2020-12-17 08:54:41,874 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
+2020-12-17 08:54:41,875 [TRACE] (RendererTest.java at 67 line) [Testable] -> 렌더링 테스트 9
+2020-12-17 08:54:41,875 [TRACE] (RendererTest.java at 29 line) [Testable] -> 렌더링 테스트 1
+2020-12-17 08:54:41,875 [TRACE] (RendererTest.java at 30 line) [Testable] -> 렌더링 테스트 2
+2020-12-17 08:54:41,880 [TRACE] (RendererTest.java at 31 line) [Testable] -> 렌더링 테스트 3
+2020-12-17 08:54:41,880 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
+2020-12-17 08:54:41,880 [TRACE] (RendererTest.java at 67 line) [Testable] -> 렌더링 테스트 9
+2020-12-17 08:54:41,880 [TRACE] (RendererTest.java at 29 line) [Testable] -> 렌더링 테스트 1
+2020-12-17 08:54:41,880 [TRACE] (RendererTest.java at 30 line) [Testable] -> 렌더링 테스트 2
+2020-12-17 08:54:41,880 [TRACE] (RendererTest.java at 31 line) [Testable] -> 렌더링 테스트 3
+2020-12-17 08:54:41,880 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
+2020-12-17 08:54:41,881 [TRACE] (RendererTest.java at 67 line) [Testable] -> 렌더링 테스트 9
+2020-12-17 08:54:41,881 [TRACE] (RendererTest.java at 29 line) [Testable] -> 렌더링 테스트 1
+2020-12-17 08:54:41,881 [TRACE] (RendererTest.java at 30 line) [Testable] -> 렌더링 테스트 2
+2020-12-17 08:54:41,881 [TRACE] (RendererTest.java at 31 line) [Testable] -> 렌더링 테스트 3
+2020-12-17 08:54:41,881 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
+2020-12-17 08:54:41,881 [TRACE] (RendererTest.java at 67 line) [Testable] -> 렌더링 테스트 9
+2020-12-17 08:54:41,881 [TRACE] (RendererTest.java at 29 line) [Testable] -> 렌더링 테스트 1
+2020-12-17 08:54:41,882 [TRACE] (RendererTest.java at 30 line) [Testable] -> 렌더링 테스트 2
+2020-12-17 08:54:41,882 [TRACE] (RendererTest.java at 31 line) [Testable] -> 렌더링 테스트 3
+2020-12-17 08:54:41,882 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
+2020-12-17 08:54:41,882 [TRACE] (RendererTest.java at 67 line) [Testable] -> 렌더링 테스트 9
+2020-12-17 08:54:41,884 [ INFO] (RendererTest.java at 75 line) [Testable] -> TEST_END - RenderPriority
+2020-12-17 08:55:21,594 [ INFO] (RendererTest.java at 27 line) [Testable] -> TEST_START - RenderCreation
+2020-12-17 08:55:21,740 [TRACE] (RendererTest.java at 41 line) [Testable] -> 렌더링 테스트 5 (우선순위 = 3)
+2020-12-17 08:55:21,740 [TRACE] (RendererTest.java at 53 line) [Testable] -> 렌더링 테스트 7 (우선순위 = 3)
+2020-12-17 08:55:21,740 [TRACE] (RendererTest.java at 47 line) [Testable] -> 렌더링 테스트 6 (우선순위 = 2)
+2020-12-17 08:55:21,741 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
+2020-12-17 08:55:21,741 [TRACE] (RendererTest.java at 29 line) [Testable] -> 렌더링 테스트 1
+2020-12-17 08:55:21,741 [TRACE] (RendererTest.java at 30 line) [Testable] -> 렌더링 테스트 2
+2020-12-17 08:55:21,741 [TRACE] (RendererTest.java at 31 line) [Testable] -> 렌더링 테스트 3
+2020-12-17 08:55:21,741 [TRACE] (RendererTest.java at 59 line) [Testable] -> 렌더링 테스트 8 (우선순위 = -1)
+2020-12-17 08:55:21,742 [TRACE] (RendererTest.java at 67 line) [Testable] -> 렌더링 테스트 9
+2020-12-17 08:55:21,742 [TRACE] (RendererTest.java at 41 line) [Testable] -> 렌더링 테스트 5 (우선순위 = 3)
+2020-12-17 08:55:21,742 [TRACE] (RendererTest.java at 53 line) [Testable] -> 렌더링 테스트 7 (우선순위 = 3)
+2020-12-17 08:55:21,742 [TRACE] (RendererTest.java at 47 line) [Testable] -> 렌더링 테스트 6 (우선순위 = 2)
+2020-12-17 08:55:21,742 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
+2020-12-17 08:55:21,742 [TRACE] (RendererTest.java at 29 line) [Testable] -> 렌더링 테스트 1
+2020-12-17 08:55:21,742 [TRACE] (RendererTest.java at 30 line) [Testable] -> 렌더링 테스트 2
+2020-12-17 08:55:21,742 [TRACE] (RendererTest.java at 31 line) [Testable] -> 렌더링 테스트 3
+2020-12-17 08:55:21,743 [TRACE] (RendererTest.java at 59 line) [Testable] -> 렌더링 테스트 8 (우선순위 = -1)
+2020-12-17 08:55:21,743 [TRACE] (RendererTest.java at 67 line) [Testable] -> 렌더링 테스트 9
+2020-12-17 08:55:21,743 [TRACE] (RendererTest.java at 41 line) [Testable] -> 렌더링 테스트 5 (우선순위 = 3)
+2020-12-17 08:55:21,743 [TRACE] (RendererTest.java at 53 line) [Testable] -> 렌더링 테스트 7 (우선순위 = 3)
+2020-12-17 08:55:21,743 [TRACE] (RendererTest.java at 47 line) [Testable] -> 렌더링 테스트 6 (우선순위 = 2)
+2020-12-17 08:55:21,743 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
+2020-12-17 08:55:21,743 [TRACE] (RendererTest.java at 29 line) [Testable] -> 렌더링 테스트 1
+2020-12-17 08:55:21,744 [TRACE] (RendererTest.java at 30 line) [Testable] -> 렌더링 테스트 2
+2020-12-17 08:55:21,744 [TRACE] (RendererTest.java at 31 line) [Testable] -> 렌더링 테스트 3
+2020-12-17 08:55:21,744 [TRACE] (RendererTest.java at 59 line) [Testable] -> 렌더링 테스트 8 (우선순위 = -1)
+2020-12-17 08:55:21,744 [TRACE] (RendererTest.java at 67 line) [Testable] -> 렌더링 테스트 9
+2020-12-17 08:55:21,744 [TRACE] (RendererTest.java at 41 line) [Testable] -> 렌더링 테스트 5 (우선순위 = 3)
+2020-12-17 08:55:21,744 [TRACE] (RendererTest.java at 53 line) [Testable] -> 렌더링 테스트 7 (우선순위 = 3)
+2020-12-17 08:55:21,745 [TRACE] (RendererTest.java at 47 line) [Testable] -> 렌더링 테스트 6 (우선순위 = 2)
+2020-12-17 08:55:21,745 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
+2020-12-17 08:55:21,745 [TRACE] (RendererTest.java at 29 line) [Testable] -> 렌더링 테스트 1
+2020-12-17 08:55:21,745 [TRACE] (RendererTest.java at 30 line) [Testable] -> 렌더링 테스트 2
+2020-12-17 08:55:21,745 [TRACE] (RendererTest.java at 31 line) [Testable] -> 렌더링 테스트 3
+2020-12-17 08:55:21,745 [TRACE] (RendererTest.java at 59 line) [Testable] -> 렌더링 테스트 8 (우선순위 = -1)
+2020-12-17 08:55:21,746 [TRACE] (RendererTest.java at 67 line) [Testable] -> 렌더링 테스트 9
+2020-12-17 08:55:21,746 [TRACE] (RendererTest.java at 41 line) [Testable] -> 렌더링 테스트 5 (우선순위 = 3)
+2020-12-17 08:55:21,746 [TRACE] (RendererTest.java at 53 line) [Testable] -> 렌더링 테스트 7 (우선순위 = 3)
+2020-12-17 08:55:21,746 [TRACE] (RendererTest.java at 47 line) [Testable] -> 렌더링 테스트 6 (우선순위 = 2)
+2020-12-17 08:55:21,746 [TRACE] (RendererTest.java at 35 line) [Testable] -> 렌더링 테스트 4 (우선순위 = 1)
+2020-12-17 08:55:21,747 [TRACE] (RendererTest.java at 29 line) [Testable] -> 렌더링 테스트 1
+2020-12-17 08:55:21,747 [TRACE] (RendererTest.java at 30 line) [Testable] -> 렌더링 테스트 2
+2020-12-17 08:55:21,747 [TRACE] (RendererTest.java at 31 line) [Testable] -> 렌더링 테스트 3
+2020-12-17 08:55:21,747 [TRACE] (RendererTest.java at 59 line) [Testable] -> 렌더링 테스트 8 (우선순위 = -1)
+2020-12-17 08:55:21,747 [TRACE] (RendererTest.java at 67 line) [Testable] -> 렌더링 테스트 9
+2020-12-17 08:55:21,751 [ INFO] (RendererTest.java at 75 line) [Testable] -> TEST_END - RenderPriority

@@ -26,9 +26,9 @@ public class RendererTest implements Testable {
         //테스트 ID 5, 7, 6, 4, 1, 2, 3, 8 순으로 실행되면 성공
         logger.log(Level.INFO, "TEST_START - RenderCreation");
         Renderer renderer = new Renderer(new ScreenController("#Test"));
-        renderer.addRenderable((screen) -> logger.log(Level.TRACE, "렌더링 테스트 1"));
-        renderer.addRenderable((screen) -> logger.log(Level.TRACE, "렌더링 테스트 2"));
-        renderer.addRenderable((screen) -> logger.log(Level.TRACE, "렌더링 테스트 3"));
+        Renderer.addRenderable((screen) -> logger.log(Level.TRACE, "렌더링 테스트 1"));
+        Renderer.addRenderable((screen) -> logger.log(Level.TRACE, "렌더링 테스트 2"));
+        Renderer.addRenderable((screen) -> logger.log(Level.TRACE, "렌더링 테스트 3"));
         PriorityRenderable renderableA = new PriorityRenderable(1) {
             @Override
             public void render(ScreenController screen) {
@@ -59,12 +59,12 @@ public class RendererTest implements Testable {
                 logger.log(Level.TRACE, "렌더링 테스트 8 (우선순위 = -1)");
             }
         };
-        renderer.addRenderable(renderableA);
-        renderer.addRenderable(renderableB);
-        renderer.addRenderable(renderableC);
-        renderer.addRenderable(renderableD);
-        renderer.addRenderable(renderableE);
-        renderer.addRenderable((screen) -> logger.log(Level.TRACE, "렌더링 테스트 9"));
+        Renderer.addRenderable(renderableA);
+        Renderer.addRenderable(renderableB);
+        Renderer.addRenderable(renderableC);
+        Renderer.addRenderable(renderableD);
+        Renderer.addRenderable(renderableE);
+        Renderer.addRenderable((screen) -> logger.log(Level.TRACE, "렌더링 테스트 9"));
 
         Thread thread = new Thread(renderer, "renderer");
         thread.start();

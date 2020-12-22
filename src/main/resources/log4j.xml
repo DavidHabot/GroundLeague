@@ -3,7 +3,7 @@
 <log4j:configuration>
 
     <!-- 콘솔 로그의 형식을 지정한다 -->
-    <appender name="application-console" class="org.apache.log4j.ConsoleAppender">
+    <appender name="console" class="org.apache.log4j.ConsoleAppender">
         <layout class="org.apache.log4j.PatternLayout">
             <param name="ConversionPattern" value="%d{HH:mm:ss} [%5p] (%F at %L line) %c{1}.%M -> %m%n" />
         </layout>
@@ -57,12 +57,13 @@
     <!-- 어플리케이션 로거를 설정한다. -->
     <logger name="com.davidhabot.groundleague.test">
         <level value="TRACE" />
+        <appender-ref ref="console" />
         <appender-ref ref="test-file-daily"/>
         <appender-ref ref="application-file-error"/>
     </logger>
 
     <logger name="com.davidhabot.groundleague.core">
-        <appender-ref ref="application-console" />
+        <appender-ref ref="console" />
         <appender-ref ref="application-file-daily"/>
         <appender-ref ref="application-file-error"/>
     </logger>

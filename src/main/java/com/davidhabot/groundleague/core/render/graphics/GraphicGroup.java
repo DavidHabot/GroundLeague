@@ -28,6 +28,14 @@ public class GraphicGroup<E extends Graphic> implements Graphic {
         return graphics.get(idx);
     }
 
+    public void addGraphic(E graphic) {
+        graphics.add(graphic);
+    }
+
+    public void removeGraphic(E graphic) {
+        graphics.remove(graphic);
+    }
+
     @Override //toString 을 재정의하여, 해당 스프라이트그룹의 이름을 형식에 맞게 반환하게 만든다.
    public String toString() {
         return "스프라이트 그룹 - " + name;

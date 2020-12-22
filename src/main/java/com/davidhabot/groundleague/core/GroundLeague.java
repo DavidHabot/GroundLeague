@@ -15,6 +15,9 @@ public class GroundLeague {
     private static final Logger logger = Logger.getLogger(GroundLeague.class);
     private static Thread render;
     private static Thread update;
+    private static ScreenController sc =
+            new ScreenController("#ScreenController",
+                    new Screen(1920, 1080));
 
     public static void main(String[] args) {
         render = new Thread(new Renderer(new ScreenController("#Screen", new Screen(1920, 1080))), "#Renderer");
@@ -28,7 +31,7 @@ public class GroundLeague {
     }
 
     public static void initThread() {
-        //render = new Renderer();
-        update = new Updater();
+        render = new Thread(new Renderer(sc));
+        update = new Thread(new Updater("#Updater"), "Update");
     }
 }
